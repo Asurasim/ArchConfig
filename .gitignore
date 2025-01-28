@@ -1,0 +1,9 @@
+OpenTabletDriver/Logs
+OpenTabletDriver/Plugins
+yazi/plugins
+
+# Symlinks maybe? tbh I don't really understand how they work
+OpenTabletDriver/OpenTabletDriver
+mpv/mpv
+nvim/nvim
+yazi/yazi
