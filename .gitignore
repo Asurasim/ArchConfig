@@ -7,3 +7,10 @@ OpenTabletDriver/OpenTabletDriver
 mpv/mpv
 nvim/nvim
 yazi/yazi
+mpd/database
+mpd/log
+mpd/state
+mpd/mpdstate
+mpd/sticker.sql
+ncmpcpp/error.log
+mpd/playlists
