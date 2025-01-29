@@ -13,15 +13,7 @@
     "custom/media",
   ],
   "modules-center": ["hyprland/window"],
-  "modules-right": [
-    "mpd",
-    "pulseaudio",
-    "cpu",
-    "memory",
-    "clock",
-    "tray",
-    "custom/power",
-  ],
+  "modules-right": ["mpd", "pulseaudio", "cpu", "memory", "clock", "tray"],
   // Modules configuration
   // "sway/workspaces": {
   //     "disable-scroll": true,
