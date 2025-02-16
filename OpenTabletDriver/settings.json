@@ -92,7 +92,7 @@
               "Value": 1.0
             }
           ],
-          "Enable": true
+          "Enable": false
         },
         {
           "Path": "TabletDriverFilters.Devocub.Antichatter",

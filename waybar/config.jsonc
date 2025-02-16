@@ -4,7 +4,8 @@
   // "position": "bottom", // Waybar position (top|bottom|left|right)
   "height": 30, // Waybar height (to be removed for auto height)
   // "width": 1280, // Waybar width
-  "spacing": 4, // Gaps between modules (4px)
+  "spacing": 0, // Gaps between modules (4px)
+  "margin": 4,
   // Choose the order of the modules
   "modules-left": [
     "hyprland/workspaces",
@@ -13,7 +14,14 @@
     "custom/media",
   ],
   "modules-center": ["hyprland/window"],
-  "modules-right": ["mpd", "pulseaudio", "cpu", "memory", "clock", "tray"],
+  "modules-right": [
+    "mpd",
+    "cpu",
+    "memory",
+    "clock",
+    "tray",
+    "custom/notification",
+  ],
   // Modules configuration
   // "sway/workspaces": {
   //     "disable-scroll": true,
@@ -49,6 +57,26 @@
     "format-icons": ["", ""],
     "tooltip": true,
     "tooltip-format": "{app}: {title}",
+  },
+  "custom/notification": {
+    "tooltip": false,
+    "format": "{icon}",
+    "format-icons": {
+      "notification": "<span foreground='red'><sup></sup></span>",
+      "none": "",
+      "dnd-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-none": "",
+      "inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "inhibited-none": "",
+      "dnd-inhibited-notification": "<span foreground='red'><sup></sup></span>",
+      "dnd-inhibited-none": "",
+    },
+    "return-type": "json",
+    "exec-if": "which swaync-client",
+    "exec": "swaync-client -swb",
+    "on-click": "swaync-client -t -sw",
+    "on-click-right": "swaync-client -d -sw",
+    "escape": true,
   },
   "mpd": {
     "format": "{stateIcon} {consumeIcon}{randomIcon}{repeatIcon}{singleIcon}{title}",
