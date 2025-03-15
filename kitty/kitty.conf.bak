@@ -11,10 +11,10 @@ enable_audio_bell no
 background_opacity	0.98
 
 # Font
-font_family      monospace
-bold_font        auto
-italic_font      auto
-bold_italic_font auto
+# font_family      monospace
+# bold_font        auto
+# italic_font      auto
+# bold_italic_font auto
 
 # The basic colors
 foreground              #cdd6f4
@@ -86,3 +86,11 @@ color14 #94e2d5
 # white
 color7  #bac2de
 color15 #a6adc8
+
+
+# BEGIN_KITTY_FONTS
+font_family      family="NotoMono Nerd Font"
+bold_font        auto
+italic_font      auto
+bold_italic_font auto
+# END_KITTY_FONTS

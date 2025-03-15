@@ -56,3 +56,13 @@ run = "plugin mount"
 on = ["s", "s"]
 run = "plugin what-size"
 desc = "Calc size of selection or cwd"
+
+[[manager.prepend_keymap]]
+on = "T"
+run = "shell kitty %u"
+desc = "Open terminal at current directory"
+
+[[manager.prepend_keymap]]
+on = ["V", "m"]
+run = '''shell 'ffmpeg -i "$@" -map 0 -c copy output.mp4' --confirm'''
+desc = "Remux to MP4"

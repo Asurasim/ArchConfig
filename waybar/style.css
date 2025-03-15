@@ -9,13 +9,14 @@ window#waybar {
 
 #workspaces {
   padding: 0 5px;
-  background-color: #FCB438;
+  /*background-color: #FCB438;*/
   margin: 2px;
   margin-right: 0px;
 }
 
 #workspaces button {
-  color: #181926;
+  /*color: #181926;*/
+  color: #cad3f5;
   padding: 0px;
 }
 
@@ -26,7 +27,7 @@ window#waybar {
 #custom-notification,
 #mpd {
   padding: 0 8px;
-  color: #181926;
+  color: #cad3f5;
   margin-top: 2px;
   margin-bottom: 2px;
 }
@@ -37,6 +38,7 @@ window#waybar {
   color: #cad3f5
 }
 
+/*
 #mpd,
 #cpu {
   color: #181926
@@ -62,9 +64,10 @@ window#waybar {
 #tray {
   background-color: #2980b9;
 }
+*/
 
 #custom-notification {
-  background-color: #8839ef;
+  /*background-color: #8839ef;*/
   padding-right: 15px;
   padding-left: 10px;
   margin-right: 2px;
