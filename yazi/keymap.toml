@@ -1,0 +1,68 @@
+[[manager.prepend_keymap]]
+on = ["<C-n>"]
+run = '''shell 'ripdrag "$@" 2>/dev/null &' --confirm'''
+desc = "Open drag & drop window"
+
+[[manager.prepend_keymap]]
+on = ["<C-b>"]
+run = '''shell 'ripdrag "$@" -x 2>/dev/null &' --confirm'''
+desc = "Open drag & drop window (Single-use)"
+
+[[manager.prepend_keymap]]
+on = ["u", "a"]
+run = "plugin yamb --args=save"
+desc = "Add bookmark"
+
+[[manager.prepend_keymap]]
+on = ["u", "g"]
+run = "plugin yamb --args=jump_by_key"
+desc = "Jump bookmark by key"
+
+[[manager.prepend_keymap]]
+on = ["u", "G"]
+run = "plugin yamb --args=jump_by_fzf"
+desc = "Jump bookmark by fzf"
+
+[[manager.prepend_keymap]]
+on = ["u", "d"]
+run = "plugin yamb --args=delete_by_key"
+desc = "Delete bookmark by key"
+
+[[manager.prepend_keymap]]
+on = ["u", "D"]
+run = "plugin yamb --args=delete_by_fzf"
+desc = "Delete bookmark by fzf"
+
+[[manager.prepend_keymap]]
+on = ["u", "A"]
+run = "plugin yamb --args=delete_all"
+desc = "Delete all bookmarks"
+
+[[manager.prepend_keymap]]
+on = ["u", "r"]
+run = "plugin yamb --args=rename_by_key"
+desc = "Rename bookmark by key"
+
+[[manager.prepend_keymap]]
+on = ["u", "R"]
+run = "plugin yamb --args=rename_by_fzf"
+desc = "Rename bookmark by fzf"
+
+[[manager.prepend_keymap]]
+on = "M"
+run = "plugin mount"
+
+[[manager.prepend_keymap]]
+on = ["s", "s"]
+run = "plugin what-size"
+desc = "Calc size of selection or cwd"
+
+[[manager.prepend_keymap]]
+on = "T"
+run = "shell kitty %u"
+desc = "Open terminal at current directory"
+
+[[manager.prepend_keymap]]
+on = ["V", "v"]
+run = '''shell 'videotools "$@"' --block'''
+desc = "Run VideoTools"

@@ -1,0 +1,37 @@
+[[plugin.deps]]
+use = "dedukun/bookmarks"
+rev = "202e450"
+hash = ""
+
+[[plugin.deps]]
+use = "stelcodes/bunny"
+rev = "49bd059"
+hash = ""
+
+[[plugin.deps]]
+use = "h-hg/yamb"
+rev = "108347b"
+hash = "faf1b817347b5b46c96039dab538694b"
+
+[[plugin.deps]]
+use = "KKV9/compress"
+rev = "60b24af"
+hash = "ee025be766240cc98e671754ac836da3"
+
+[[plugin.deps]]
+use = "s-and-witch/krita"
+rev = "785dc37"
+hash = "f151651ef02456011bd2303d0a647a6e"
+
+[[plugin.deps]]
+use = "yazi-rs/plugins:mount"
+rev = "02d18be"
+hash = "9568ea5ec82fe3d99073a7341fda3da8"
+
+[[plugin.deps]]
+use = "pirafrank/what-size"
+rev = "b23e3a4"
+hash = "98e5f5af3efd3ba8bc2db0720187cc83"
+
+[flavor]
+deps = []
