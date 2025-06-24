@@ -1,6 +1,6 @@
 * {
   font-family: FontAwesome, Roboto, Helvetica, Arial, sans-serif;
-  font-size: 13px;
+  font-size: 17px;
 }
 
 window#waybar {
@@ -25,7 +25,8 @@ window#waybar {
 #clock,
 #tray,
 #custom-notification,
-#mpd {
+#mpd,
+#pulseaudio {
   padding: 0 8px;
   color: #cad3f5;
   margin-top: 2px;
